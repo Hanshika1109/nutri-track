@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - NutriTrack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: #f0fdf4;
+      display: flex;
+      height: 100vh;
+    }
+
+    .login-container {
+      display: flex;
+      width: 100%;
+    }
+
+    .left {
+      flex: 1;
+      background: linear-gradient(to bottom right, #81c784, #aed581);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .left h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .left p {
+      font-size: 1.2rem;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+
+    .right {
+      flex: 1;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .form-box {
+      width: 85%;
+      max-width: 400px;
+      padding: 2rem;
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    .form-box h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #388e3c;
+      font-weight: 700;
+    }
+
+    .form-box input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 1.2rem;
+      border: 1px solid #c8e6c9;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+
+    .form-box button {
+      width: 100%;
+      padding: 14px;
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .form-box button:hover {
+      background-color: #2e7d32;
+    }
+
+    .form-box .footer {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .form-box .footer a {
+      color: #388e3c;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      .login-container {
+        flex-direction: column;
+      }
+      .left, .right {
+        flex: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <div class="left">
+      <h1>Fuel Your Body, Feed Your Goals</h1>
+      <p>Welcome to NutriTrack — where every login is a step closer to a healthier you. Let’s balance your plate, boost your energy, and build the best version of you. 💪🥦</p>
+    </div>
+    <div class="right">
+      <div class="form-box">
+        <h2>Log In to Thrive</h2>
+        <form action="/login" method="post">
+          <input type="email" placeholder="Email address" required />
+          <input type="password" placeholder="Your secret sauce (password)" required />
+          <button type="submit">Let’s Get Nourishing</button>
+        </form>
+        <div class="footer">
+          <p>New here? <a href="signup.html">Start Your Nutrition Journey</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

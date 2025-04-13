@@ -1,0 +1,106 @@
+.home-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero-section {
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    color: #2c3e50;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #34495e;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+  
+  .features-section {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    color: #2980b9;
+  }
+  
+  .how-it-works-section {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    width: 220px;
+    margin: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    color: #27ae60;
+  }
+  
+  .cta-section {
+    padding: 40px;
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+  }
+  
+  .cta-button {
+    padding: 12px 30px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #2ecc71;
+  }
+  
+  .community-section {
+    padding: 40px;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+  
